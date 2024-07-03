@@ -10,9 +10,8 @@ importOrder:
   - '<THIRD_PARTY_MODULES>'
   - '^@/components/(.*)'
   - '^@/components/ui/(.*)'
-  - '^@/lib/(.*)'
-  - '^../(.*)'
-  - '^./(.*)'
+  - '^@/(.*)'
+  - '^.(.?)/(.*)'
   - '^./(.*)\.css'
 importOrderSeparation: true
 importOrderSortSpecifiers: true
